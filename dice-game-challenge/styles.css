@@ -1,0 +1,82 @@
+
+html {
+    background-color: #2d2d30;
+}
+
+.main {
+    color: #4ecca3;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+/* .flex-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+} */
+
+.flex-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* .flex-3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+} */
+
+.h-title {
+    font-size: 8rem;
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin: 0px;
+}
+
+.f-title {
+    color: #faf1d8;
+    font-size: 1rem;
+    margin: 100px 0px;
+}
+
+.m-section {
+    display: grid;
+    grid-template: 1fr 4fr / 2fr 2fr;
+    gap: 20px
+}
+
+.p1-tag {
+    font-size: 1.5rem;
+}
+
+.p2-flex {
+    font-size: 1.5rem;
+    grid-area: 1 / 2 / 2 / -1;
+}
+
+.dice {
+    height: 200px;
+    width: 200px;
+    background-color: #faf1d8;
+    border-radius: 20%;
+}
+
+.dice-box {
+    text-align: center;
+}
+
+
+
