@@ -1,0 +1,22 @@
+<!-- || \\ -->
+<%- include("header.ejs") -%>
+
+    <div id="heading" class="box">
+        <h1> <%= listTitle %> </h1>
+    </div>
+
+    <div class="box">
+        <% for(var i = 0; i < listArr.length; i++) { %>
+        <div class="item">
+            <input type="checkbox" />
+            <p><%= listArr[i] %></p>
+        </div>
+        <% } %>
+            
+        <form class="item" action="/" method="post">
+            <input id="inputF" type="text" name="listItem" placeholder="type task here..." autocomplete="off"/>
+            <button type="submit" name="btn" value=<%= listTitle %>>+</button>
+        </form>
+    </div>
+
+<%- include("footer.ejs") -%>
