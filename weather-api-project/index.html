@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project</title>
+</head>
+<body>
+    <h1>Look up your city's weather</h1>
+    <form action="/" method="post">
+        <label for="cityInput">Enter city name:</label>
+        <input id="cityInput" type="text" name="city" placeholder="Enter here..." />
+        <br />
+        <p>Select temperature unit:</p>
+        <input id="unit1" type="radio" name="units" value="imperial"/>
+        <label for="unit1">Imperial Unit</label>
+        <br />
+        <input id="unit2" type="radio" name="units" value="metric"/>
+        <label for="unit2">Metric Unit</label>
+        <br />
+        <br />
+        <button type="submit" name="submit">Submit</button>
+    </form>
+</body>
+</html>
